@@ -1,0 +1,18 @@
+server:
+  port: 4046
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:4037/eureka
+spring:
+  application:
+    name: zuul
+zuul:
+  routes:
+    city:
+      path: /city/**
+      serviceId: city-api
+    weather:
+      path: /weather/**
+      serviceId: weather-api

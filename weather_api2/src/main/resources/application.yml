@@ -1,0 +1,16 @@
+server:
+  port: 4044
+
+eureka:
+  instance:
+    hostname: weather-api
+    prefer-ip-address: true
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:4037/eureka
+
+spring:
+  application:
+    name: weather-api

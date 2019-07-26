@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="zuul" />
+        <module name="city_api" />
+        <module name="weather_report (1)" />
+        <module name="eureka" />
+        <module name="weather_report" />
+        <module name="weather_api" />
+        <module name="weather_api2" />
+        <module name="config" />
+        <module name="weathercloud" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="city_api" target="1.8" />
+      <module name="config" target="1.8" />
+      <module name="eureka" target="1.8" />
+      <module name="weather_api" target="1.8" />
+      <module name="weather_api2" target="1.8" />
+      <module name="weather_report" target="1.8" />
+      <module name="weather_report (1)" target="1.8" />
+      <module name="weathercloud" target="1.8" />
+      <module name="zuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="city_api" options="-parameters" />
+      <module name="config" options="-parameters" />
+      <module name="eureka" options="-parameters" />
+      <module name="weather_api" options="-parameters" />
+      <module name="weather_api2" options="-parameters" />
+      <module name="weather_report" options="-parameters" />
+      <module name="weather_report (1)" options="-parameters" />
+      <module name="weathercloud" options="-parameters" />
+      <module name="zuul" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/city_api/city_api.iml" filepath="$PROJECT_DIR$/city_api/city_api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config/config.iml" filepath="$PROJECT_DIR$/config/config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka/eureka.iml" filepath="$PROJECT_DIR$/eureka/eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weather_api/weather_api.iml" filepath="$PROJECT_DIR$/weather_api/weather_api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weather_api2/weather_api2.iml" filepath="$PROJECT_DIR$/weather_api2/weather_api2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weather_report/weather_report.iml" filepath="$PROJECT_DIR$/weather_report/weather_report.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weather_report_hystrix/weather_report (1).iml" filepath="$PROJECT_DIR$/weather_report_hystrix/weather_report (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/weathercloud.iml" filepath="$PROJECT_DIR$/weathercloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul/zuul.iml" filepath="$PROJECT_DIR$/zuul/zuul.iml" />
+    </modules>
+  </component>
+</project>

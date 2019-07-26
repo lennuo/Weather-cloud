@@ -1,0 +1,11 @@
+server:
+  port: 4049
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:4037/eureka
+
+spring:
+  application:
+    name: weather-report
